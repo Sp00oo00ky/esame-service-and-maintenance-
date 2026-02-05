@@ -2,6 +2,8 @@
 
 # Esame sugli aspetti che riguardano la modifiche ed il testing documentato tramite Jira e Github
 
+
+
 ## Inizializza il progetto
 
 -Ho creato una repository su GitHub e l’ho clonata in locale con un nome adeguato, poi ho creato un contenitore ed i ticket su Jira.
@@ -19,8 +21,8 @@
 -Ho creato questo file README.md, con una breve descrizione del mio lavoro, e del funzionamento del codice.
 
 
-codice su cui sto lavorando
------------------------------------------------------
+# Codice su cui sto lavorando
+ -----------------------------------------------------
 
 <?php
 declare(strict_types=1);
@@ -39,27 +41,20 @@ echo greet($name) . PHP_EOL;
 
 
 
-comandi di esecuzione, ed esempi
-----------------------------------------------------
+# Comandi di esecuzione, ed esempi
+ ----------------------------------------------------
 
 // Comando di esecuzione: php hello.php [nome]
 
 // Esempio: php hello.php Mario
 
 
+# Aggiorna il codice
+
+-Ho creato un nuovo branch "feat/modifiche", per eseguire le modifiche richieste: cambiare il codice in modo che "Ciao" venga stampato in maiuscolo.
+Per completare il ticket ho modificato il return in questo modo '' return "CIAO, {$name}!"; ''.
 
 
-
-comandi per testare il codice da terminale
------------------------------------------------------
-
-php status.php
-php status.php api
-php status.php database
-
-
-Output atteso (esempio):
-Servizio api: pronto
 
 
 
